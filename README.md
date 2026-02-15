@@ -1,4 +1,4 @@
-# ai-robots-txt
+# ai.robots.txt
 
 This repository makes [ai.robots.txt](https://github.com/ai-robots-txt/ai.robots.txt) downloadable via npm. It currently supports JSON file.
 

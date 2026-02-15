@@ -27,7 +27,7 @@
     "format:check": "prettier --check ./src",
     "lint": "eslint --flag unstable_native_nodejs_ts_config \"./src/**/*.ts\" \"./scripts/**/*.ts\"",
     "update": "node ./scripts/download.ts",
-    "build": "tsc",
+    "build": "tsc -p tsconfig.build.json",
     "ci:version": "changeset version",
     "ci:publish": "npm run build && changeset publish"
   },

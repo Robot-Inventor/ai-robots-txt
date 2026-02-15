@@ -26,6 +26,7 @@
     "format": "prettier --write ./src",
     "format:check": "prettier --check ./src",
     "lint": "eslint \"./scripts/**/*.ts\"",
+    "update": "node ./scripts/download.ts",
     "build": "tsc",
     "ci:version": "changeset version",
     "ci:publish": "npm run build && changeset publish"

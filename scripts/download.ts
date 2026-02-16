@@ -9,7 +9,7 @@ const main = async (): Promise<void> => {
         if (!response.ok) throw new Error(`Failed to fetch JSON: ${response.statusText}`);
 
         const data = await response.text();
-        await fs.writeFile(OUTPUT_PATH, data.trim() + "\n");
+        await fs.writeFile(OUTPUT_PATH, `${data.trim()}\n`);
         // eslint-disable-next-line no-console
         console.log(`Successfully downloaded and saved JSON to ${OUTPUT_PATH}`);
     } catch (error) {

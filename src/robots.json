@@ -305,7 +305,8 @@
         "respect": "Unclear at this time.",
         "function": "AI Coding Agents",
         "frequency": "Unclear at this time.",
-        "description": "Code (GitHub Copilot) is an AI coding agent that can autonomously plan, build, and execute development tasks, functioning as a collaborative AI pair programmer. More info can be found at https://knownagents.com/agents/code"
+        "description": "Code (GitHub Copilot) is an AI coding agent that can autonomously plan, build, and execute development tasks, functioning as a collaborative AI pair programmer. More info can be found at https://knownagents.com/agents/code",
+        "has_name_and_version": true
     },
     "cohere-ai": {
         "operator": "[Cohere](https://cohere.com)",
@@ -572,13 +573,6 @@
         "function": "Crawls sites to provide answers to user queries.",
         "operator": "iAsk",
         "respect": "No"
-    },
-    "IbouBot": {
-        "operator": "Ibou",
-        "respect": "Yes",
-        "function": "Search result generation.",
-        "frequency": "Unclear at this time.",
-        "description": "Ibou.io operates a crawler service named IbouBot which fuels and updates their graph representation of the World Wide Web. This database and all the metrics are used to provide a search engine."
     },
     "ICC-Crawler": {
         "operator": "[NICT](https://nict.go.jp)",

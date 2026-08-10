@@ -1,5 +1,15 @@
 # @robot-inventor/ai-robots-txt
 
+## 0.10.0
+
+### Minor Changes
+
+- [#78](https://github.com/Robot-Inventor/ai-robots-txt/pull/78) [`2ada14d`](https://github.com/Robot-Inventor/ai-robots-txt/commit/2ada14dda4f8a827444072ced08e7eaed51c9a3f) Thanks [@github-actions](https://github.com/apps/github-actions)! - feat: update ai.robots.txt (2026-08-10)
+
+### Patch Changes
+
+- [#80](https://github.com/Robot-Inventor/ai-robots-txt/pull/80) [`3e14408`](https://github.com/Robot-Inventor/ai-robots-txt/commit/3e14408c23a8287caa88d23ef6dbc58f41ebf902) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - chore: update vulnerable dependencies
+
 ## 0.9.0
 
 ### Minor Changes

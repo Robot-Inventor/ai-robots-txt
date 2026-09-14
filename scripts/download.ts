@@ -10,10 +10,10 @@ const main = async (): Promise<void> => {
 
         const data = await response.text();
         await fs.writeFile(OUTPUT_PATH, `${data.trim()}\n`);
-        // eslint-disable-next-line no-console
+        // oxlint-disable-next-line no-console
         console.log(`Successfully downloaded and saved JSON to ${OUTPUT_PATH}`);
     } catch (error) {
-        // eslint-disable-next-line no-console
+        // oxlint-disable-next-line no-console
         console.error("Error downloading JSON:", error);
     }
 };

@@ -1,5 +1,11 @@
 # @robot-inventor/ai-robots-txt
 
+## 0.16.0
+
+### Minor Changes
+
+- [#133](https://github.com/Robot-Inventor/ai-robots-txt/pull/133) [`636c8c2`](https://github.com/Robot-Inventor/ai-robots-txt/commit/636c8c28f16d787f312a7c2f580e733f615d5acd) Thanks [@github-actions](https://github.com/apps/github-actions)! - feat: update ai.robots.txt (2026-11-02)
+
 ## 0.15.0
 
 ### Minor Changes

@@ -25,7 +25,7 @@
   "scripts": {
     "format": "oxfmt --write .",
     "format:check": "oxfmt --check .",
-    "lint": "oxlint ./src ./scripts",
+    "lint": "oxlint src scripts",
     "update": "node ./scripts/download.ts",
     "build": "tsc -p tsconfig.build.json",
     "ci:version": "changeset version",

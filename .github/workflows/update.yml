@@ -5,28 +5,20 @@ on:
         - cron: "0 0 * * 1"
     workflow_dispatch:
 
-permissions:
-    contents: write
-    pull-requests: write
-
 jobs:
     update:
         runs-on: ubuntu-latest
 
-        strategy:
-            matrix:
-                node-version: [latest]
+        permissions:
+            contents: write
+            pull-requests: write
 
         steps:
             - uses: actions/checkout@v7
-              with:
-                  ref: main
-            - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v7
-              with:
-                  node-version: ${{ matrix.node-version }}
-            - run: npm ci
-            - run: npm run update
+            - uses: oven-sh/setup-bun@v2
+
+            - run: bun install --frozen-lockfile
+            - run: bun run update
             - name: Get current date
               id: date
               run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
